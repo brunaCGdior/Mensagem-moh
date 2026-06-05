@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Categoria · Cartas para Você</title>
+<meta name="theme-color" content="#0D0D0D" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="cat-header">
+      <a href="./index.html" class="back">← voltar</a>
+      <h2 id="cat-title">…</h2>
+      <p id="cat-sub">…</p>
+    </header>
+    <section class="envelopes" id="envelopes"></section>
+    <p class="footer">toque em um envelope</p>
+  </main>
+
+  <div class="overlay" id="overlay" onclick="if(event.target===this)__cartas.closeLetter()">
+    <article class="letter" id="letter">
+      <button class="close" onclick="__cartas.closeLetter()">×</button>
+      <div class="greet">Para você</div>
+      <div class="body" id="letter-body"></div>
+      <div class="sign">— com amor</div>
+    </article>
+  </div>
+
+  <script src="./app.js"></script>
+  <script>window.__cartas.renderCategory();</script>
+</body>
+</html>

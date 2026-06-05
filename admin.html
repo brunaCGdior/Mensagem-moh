@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Admin · QR Codes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css" />
+<script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">Admin</div>
+      <h1>QR Codes</h1>
+      <p>Imprima e cole onde quiser.</p>
+    </header>
+
+    <div class="admin-tools">
+      <button class="btn primary" onclick="window.print()">Imprimir</button>
+      <button class="btn" onclick="resetProgress()">Resetar progresso</button>
+      <a class="btn" href="./index.html">← App</a>
+    </div>
+
+    <div class="admin-grid" id="grid"></div>
+  </main>
+
+<script>
+const CATS = [
+  { key: 'saudade', emoji: '❤️', title: 'Quando sentir minha falta' },
+  { key: 'duvida',  emoji: '💙', title: 'Quando duvidar de si mesmo' },
+  { key: 'cansaco', emoji: '💚', title: 'Quando estiver cansado' },
+  { key: 'musica',  emoji: '💛', title: 'Quando precisar de uma música' },
+  { key: 'sonhar',  emoji: '🧡', title: 'Quando quiser sonhar um pouco' },
+];
+
+const base = location.href.replace(/admin\.html.*$/, '');
+const grid = document.getElementById('grid');
+
+CATS.forEach(c => {
+  const url = `${base}categoria.html?c=${c.key}`;
+  const card = document.createElement('div');
+  card.className = 'qr-card';
+  card.innerHTML = `
+    <h3>${c.emoji} ${c.title}</h3>
+    <canvas></canvas>
+    <div class="url">${url}</div>
+  `;
+  grid.appendChild(card);
+  QRCode.toCanvas(card.querySelector('canvas'), url, { width: 360, margin: 2, color: { dark: '#000', light: '#fff' } });
+});
+
+function resetProgress() {
+  if (confirm('Apagar todo o progresso de leitura?')) {
+    localStorage.removeItem('cartas_lidas_v1');
+    alert('Progresso apagado.');
+  }
+}
+</script>
+</body>
+</html>

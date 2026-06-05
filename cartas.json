@@ -1,0 +1,63 @@
+{
+  "saudade": {
+    "title": "Quando sentir minha falta",
+    "emoji": "❤️",
+    "letters": [
+      "Escreva aqui a carta 1...",
+      "Escreva aqui a carta 2...",
+      "Escreva aqui a carta 3...",
+      "Escreva aqui a carta 4...",
+      "Escreva aqui a carta 5...",
+      "Escreva aqui a carta 6...",
+      "Escreva aqui a carta 7...",
+      "Escreva aqui a carta 8...",
+      "Escreva aqui a carta 9...",
+      "Escreva aqui a carta 10...",
+      "Escreva aqui a carta 11...",
+      "Escreva aqui a carta 12...",
+      "Escreva aqui a carta 13...",
+      "Escreva aqui a carta 14...",
+      "Escreva aqui a carta 15...",
+      "Escreva aqui a carta 16...",
+      "Escreva aqui a carta 17...",
+      "Escreva aqui a carta 18...",
+      "Escreva aqui a carta 19...",
+      "Escreva aqui a carta 20..."
+    ]
+  },
+  "duvida": {
+    "title": "Quando duvidar de si mesmo",
+    "emoji": "💙",
+    "letters": [
+      "Escreva aqui a carta 1...","Escreva aqui a carta 2...","Escreva aqui a carta 3...","Escreva aqui a carta 4...","Escreva aqui a carta 5...","Escreva aqui a carta 6...","Escreva aqui a carta 7...","Escreva aqui a carta 8...","Escreva aqui a carta 9...","Escreva aqui a carta 10...","Escreva aqui a carta 11...","Escreva aqui a carta 12...","Escreva aqui a carta 13...","Escreva aqui a carta 14...","Escreva aqui a carta 15...","Escreva aqui a carta 16...","Escreva aqui a carta 17...","Escreva aqui a carta 18...","Escreva aqui a carta 19...","Escreva aqui a carta 20..."
+    ]
+  },
+  "cansaco": {
+    "title": "Quando estiver cansado",
+    "emoji": "💚",
+    "letters": [
+      "Escreva aqui a carta 1...","Escreva aqui a carta 2...","Escreva aqui a carta 3...","Escreva aqui a carta 4...","Escreva aqui a carta 5...","Escreva aqui a carta 6...","Escreva aqui a carta 7...","Escreva aqui a carta 8...","Escreva aqui a carta 9...","Escreva aqui a carta 10...","Escreva aqui a carta 11...","Escreva aqui a carta 12...","Escreva aqui a carta 13...","Escreva aqui a carta 14...","Escreva aqui a carta 15...","Escreva aqui a carta 16...","Escreva aqui a carta 17...","Escreva aqui a carta 18...","Escreva aqui a carta 19...","Escreva aqui a carta 20..."
+    ]
+  },
+  "musica": {
+    "title": "Quando precisar de uma música",
+    "emoji": "💛",
+    "letters": [
+      "Escreva aqui a carta 1...","Escreva aqui a carta 2...","Escreva aqui a carta 3...","Escreva aqui a carta 4...","Escreva aqui a carta 5...","Escreva aqui a carta 6...","Escreva aqui a carta 7...","Escreva aqui a carta 8...","Escreva aqui a carta 9...","Escreva aqui a carta 10...","Escreva aqui a carta 11...","Escreva aqui a carta 12...","Escreva aqui a carta 13...","Escreva aqui a carta 14...","Escreva aqui a carta 15...","Escreva aqui a carta 16...","Escreva aqui a carta 17...","Escreva aqui a carta 18...","Escreva aqui a carta 19...","Escreva aqui a carta 20..."
+    ]
+  },
+  "sonhar": {
+    "title": "Quando quiser sonhar um pouco",
+    "emoji": "🧡",
+    "letters": [
+      "Escreva aqui a carta 1...","Escreva aqui a carta 2...","Escreva aqui a carta 3...","Escreva aqui a carta 4...","Escreva aqui a carta 5...","Escreva aqui a carta 6...","Escreva aqui a carta 7...","Escreva aqui a carta 8...","Escreva aqui a carta 9...","Escreva aqui a carta 10...","Escreva aqui a carta 11...","Escreva aqui a carta 12...","Escreva aqui a carta 13...","Escreva aqui a carta 14...","Escreva aqui a carta 15...","Escreva aqui a carta 16...","Escreva aqui a carta 17...","Escreva aqui a carta 18...","Escreva aqui a carta 19...","Escreva aqui a carta 20..."
+    ]
+  },
+  "especial": {
+    "title": "Uma carta só nossa",
+    "emoji": "✨",
+    "letters": [
+      "Escreva aqui a carta especial que será desbloqueada após ler as 100 cartas..."
+    ]
+  }
+}
